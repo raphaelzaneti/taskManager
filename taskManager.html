@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager 1.0 |Raphael Zaneti</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Task Manager</h1>
+        <h3>by Raphael Zaneti</h3>
+    </header>
+    
+    <form>
+        <h2>Inserção de dados</h2><br>
+        <span class="formularioSpan">Nome da tarefa:</span> <input type="text" class="formulario"><br>
+        <span class="formularioSpan">Descrição:</span> <textarea name="" id="" cols="23" rows="10" class="formulario"></textarea><br>
+        <span class="formularioSpan">Data de entrega:</span> <input type="date" class="formulario"><br>
+        <span class="forularioSpan">Prioridade</span> <select name="" class="formulario">
+            <option value="Baixa">Baixa</option>
+            <option value="Média">Média</option>
+            <option value="Alta">Alta</option>
+            <option value="Urgente">Urgente</option>
+        </select><br>
+        <button type="button" id="salvar">Salvar</button>
+        <button type="button" onclick="limpar()">Limpar</button>
+    </form>
+
+    <div id="dataBase">
+        <h2>Base de dados</h2>
+        <br><br>
+        <button type="button" id="edit">Editar tarefa</button><br><br>
+        <table id="destino">
+            <tr>
+                <th>Id</th>
+                <th>Nome da tarefa</th>
+                <th>Descrição</th>
+                <th>Data de entrega</th>
+                <th>Prioridade</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+<script src="js/script.js"></script>

@@ -1,0 +1,92 @@
+html{
+    font-family: sans-serif;
+    padding: 0;
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 30px;
+}
+header{
+    margin-bottom: 30px;
+    background-color: #f2cc8f;
+    width: 100%;
+}
+
+h2{
+    margin: 0px;
+    font-size: 20px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+form{
+    top: 150px;
+    position: absolute;
+    background-color: #f2cc8f;
+    width: 400px;
+}
+
+form > input, form > select, form > button, form > textarea{
+    margin: 5px;
+    left: 150px;
+    display: inline-block;
+
+}
+
+button{
+    background-color: #e07a5f;
+    color: #3d405b;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #81b29a;
+}
+
+.formularioSpan{
+    width: 300px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#dataBase{
+    top: 150px;
+    position: absolute;
+    right: 10px;
+    left: 500px;
+}
+
+table {
+    border: solid;
+    border-radius: 10px;
+}
+
+th {
+    padding: 5px;
+}
+
+tr {
+    background-color: #f2cc8f;
+}
+
+tr:hover {
+    background-color: #81b29a;
+}
+
+.selected {
+    background-color: #81b29a;
+    font-weight: bold;
+}
